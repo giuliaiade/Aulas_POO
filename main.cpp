@@ -4,7 +4,10 @@
     -<> -> flechas mostram a direção da informação
     -Famoso ; sempre aqui
     -std -> fada do namespace
-    -Mesmos tipos de dados +short
+    -Mesmos tipos de dados +:
+        - short, long        -> auto-explicativo
+        - signed, unsigned   -> com/sem sinal (default signed [com sinal])
+    -Vetores mais simplificados
 
 _____________________________________________________________________________*/
 
@@ -26,5 +29,9 @@ int main() {
 
     std:: cout << "Ola, " << nome << " sua idade e: " << idade << std::endl;
 
+    // Vetores
+    int idades[4];
+
     return 0;
+
 }

@@ -4,4 +4,5 @@ project(POO)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(POO main.cpp
-        header.h)
+        header.h
+        aula_1.cpp)
