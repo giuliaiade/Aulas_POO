@@ -12,7 +12,7 @@ _____________________________________________________________________________*/
 
 #include <algorithm>
 #include <iostream>
-#include "header.h"
+#include "../header.h"
 
 using namespace std; //Posso retirar todos os std
 
